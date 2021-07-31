@@ -1,0 +1,661 @@
+html, body {
+  font-size: 64.5%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: open sans, sans-serif;
+}
+
+#cd-text {
+  color: #E7332B;
+  font-weight: 900;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  margin-top: 0;
+}
+
+header nav {
+  margin: 0 12rem;
+}
+
+.nav-menu {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.nav-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.nav-menu ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav-menu ul li a:hover {
+  color: #E7332B;
+}
+
+.nav-buttons button {
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.1rem;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+}
+
+.nav-buttons .support {
+  background: #FFFFFF;
+  border: 0.92582px solid rgba(147, 144, 144, 0.2);
+  border-radius: 5px;
+  color: #333333;
+  -webkit-box-shadow: 0px 14.8132px 29.6263px rgba(203, 203, 203, 0.1);
+          box-shadow: 0px 14.8132px 29.6263px rgba(203, 203, 203, 0.1);
+  margin: 0px 24px;
+}
+
+.nav-buttons .support:hover {
+  background-color: #E7332B;
+  color: #fff;
+}
+
+.nav-buttons .register {
+  background: #E7332B;
+  -webkit-box-shadow: 0px 7.40658px 14.8132px rgba(231, 51, 43, 0.1);
+          box-shadow: 0px 7.40658px 14.8132px rgba(231, 51, 43, 0.1);
+  border-radius: 3.70329px;
+  color: #fff;
+}
+
+.nav-buttons .register:hover {
+  background-color: #fff;
+  color: #E7332B;
+}
+
+body {
+  background: #FFFDFD 40%;
+}
+
+.hero-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-section .row {
+  margin: 3rem 12rem;
+}
+
+.hero-section .hero-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hero-section .hero-text h2 {
+  font-size: 4rem;
+  color: #333333;
+  line-height: 5.2rem;
+  letter-spacing: -5%;
+  font-weight: 900;
+  margin-bottom: .7rem;
+}
+
+.hero-section .hero-text p {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.hero-buttons button {
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.1rem;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+}
+
+.hero-buttons .support {
+  background: #FFFFFF;
+  border: 0.92582px solid rgba(147, 144, 144, 0.2);
+  border-radius: 5px;
+  color: #333333;
+  -webkit-box-shadow: 0px 14.8132px 29.6263px rgba(203, 203, 203, 0.1);
+          box-shadow: 0px 14.8132px 29.6263px rgba(203, 203, 203, 0.1);
+}
+
+.hero-buttons .support:hover {
+  background-color: #E7332B;
+  color: #fff;
+}
+
+.hero-buttons .register {
+  background: #E7332B;
+  -webkit-box-shadow: 0px 7.40658px 14.8132px rgba(231, 51, 43, 0.1);
+          box-shadow: 0px 7.40658px 14.8132px rgba(231, 51, 43, 0.1);
+  border-radius: 3.70329px;
+  color: #fff;
+  margin: 0px 24px;
+}
+
+.hero-buttons .register:hover {
+  background-color: #fff;
+  color: #E7332B;
+}
+
+.partners {
+  padding-top: 5rem;
+}
+
+.partners .imgs {
+  width: 50%;
+  background-color: #fff;
+  margin: auto;
+  border: 2px solid #FBD7D6;
+}
+
+.partners img {
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  header nav {
+    margin: 0 3rem;
+  }
+  header nav .nav-menu,
+  header nav button {
+    display: none;
+  }
+  header nav .hamburger {
+    display: block !important;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: .5rem;
+  }
+  .hero-section .row {
+    margin: 0 .7rem;
+    padding: none;
+  }
+  .hero-section .hero-text {
+    margin-top: 2.5rem;
+  }
+  .hero-section .hero-text h2 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    letter-spacing: -2.5%;
+  }
+  .hero-section .hero-image {
+    display: none;
+  }
+  .partners {
+    margin-top: 2rem;
+  }
+  .partners .imgs {
+    width: 80%;
+    border: none;
+  }
+  .partners .imgs img:first-child {
+    width: 60%;
+  }
+  .partners .imgs img:nth-child(2), .partners .imgs img:nth-child(3) {
+    width: 40%;
+  }
+  .courses .row {
+    margin: 0 .7rem;
+  }
+  .benefits
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 1rem 0.7rem !important;
+  }
+  .benefits
+.row .benefit-image {
+    margin-bottom: 5rem;
+  }
+  .registration {
+    margin: 0 auto !important;
+  }
+  .registration .form {
+    padding: 0 !important;
+  }
+  .registration form {
+    margin: 0 auto !important;
+  }
+  .registration form input, .registration form select, .registration form textarea {
+    width: 85vw !important;
+  }
+  .registration form button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer form .form-group {
+    width: 90% !important;
+  }
+  footer form input {
+    width: 70%;
+  }
+  .scroll-down {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px), (min-width: 1024px) and (max-width: 1199px) {
+  .hamburger {
+    display: none !important;
+  }
+}
+
+.hamburger {
+  position: relative;
+  z-index: 1;
+  right: 1rem;
+  top: 1rem;
+  height: 0.2rem;
+  width: 0.5rem;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 2.5rem;
+  height: 0.2rem;
+  background-color: black;
+  position: absolute;
+  top: 0.5rem;
+  margin-bottom: .5rem;
+  right: 0;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+.hamburger span.opacity {
+  background: none;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+.hamburger span.opacity::after {
+  width: 3rem;
+  background-color: #E7332B;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  top: 10px;
+}
+
+.hamburger span.opacity::before {
+  background-color: black;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  top: 10px;
+}
+
+.hamburger span::before {
+  content: '';
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #E7332B;
+  position: absolute;
+  top: -0.5rem;
+}
+
+.hamburger span::after {
+  content: '';
+  width: 2rem;
+  height: 0.2rem;
+  background-color: #E7332B;
+  position: absolute;
+  top: 0.5rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px), (min-width: 480px) and (max-width: 767px) {
+  .hamburger {
+    position: absolute;
+  }
+  nav {
+    position: relative;
+  }
+}
+
+.courses {
+  margin-top: 7rem;
+}
+
+.courses h5 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: .5em;
+  text-align: center;
+}
+
+.courses h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 5.2rem;
+  letter-spacing: -0.005em;
+}
+
+.courses .row {
+  margin: 1rem 5rem;
+}
+
+.courses .row .trackcard {
+  background: #fff;
+  padding: 10px;
+  margin-top: 3rem;
+  border-radius: 3px;
+}
+
+.courses .row .trackcard h3 {
+  margin-top: 1rem;
+  color: #333333;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  text-transform: capitalize;
+}
+
+.courses .row .trackcard h4 {
+  font-size: 1rem;
+  line-height: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #333333;
+  text-transform: capitalize;
+}
+
+.courses .row .trackcard p {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+  color: #686868;
+  margin: 0.4rem 0;
+  letter-spacing: 0.02em;
+}
+
+.courses .row .trackcard button {
+  border: none;
+  outline: none;
+  background: rgba(251, 215, 214, 0.2);
+  border-radius: 4.0553px;
+  padding: 1.5rem 6rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #E7332B;
+  text-align: center;
+  width: 100%;
+}
+
+.benefits {
+  margin-top: 5rem;
+}
+
+.benefits .row {
+  margin: 1rem 5rem;
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.benefits .benefit-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.benefits .benefit-text h3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: .5em;
+}
+
+.benefits .benefit-text h2 {
+  color: #E7332B;
+  font-weight: 800;
+  line-height: 5.2rem;
+  font-size: 4rem;
+  letter-spacing: -0.005em;
+}
+
+.benefits .benefit-text ul li {
+  list-style: disc;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.02em;
+}
+
+.registration {
+  margin: 7rem auto;
+}
+
+.registration .form {
+  background: #fff;
+  margin: 0 auto;
+  padding: 5.3rem;
+}
+
+.registration .form h2, .registration .form h3, .registration .form p {
+  padding-left: 2rem;
+}
+
+.registration .form h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  color: #333333;
+}
+
+.registration .form h3 {
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.02em;
+  color: #939090;
+  text-transform: uppercase;
+}
+
+.registration .form p {
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.02em;
+  color: #E7332B;
+  font-style: italic;
+}
+
+.registration form label {
+  color: #575757;
+  letter-spacing: 0.02em;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  padding-left: 2rem;
+}
+
+.registration form label #as-cd {
+  color: #E7332B;
+}
+
+.registration form input, .registration form select, .registration form textarea {
+  width: 420px;
+  outline: none;
+  background: #efefef;
+  border: 0.2px solid #EFEFEF;
+  border-radius: 2px;
+  padding: 0 1.5rem;
+}
+
+.registration form select, .registration form input {
+  height: 3.5rem;
+}
+
+.registration form input, .registration form textarea {
+  color: #575757;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+
+.registration form select {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  color: #575757;
+  letter-spacing: 0.02em;
+}
+
+.registration form button {
+  background: #E7332B;
+  color: #f6f7d4;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 800;
+  outline: none;
+  border: none;
+  padding: 17px 124px;
+  display: block;
+  margin: 0 auto;
+}
+
+.registration form button:hover {
+  background: #be4741;
+}
+
+footer {
+  margin-top: 6rem;
+  background: #E7332B;
+  padding: 5rem 0;
+}
+
+footer h3, footer h2, footer p {
+  color: #fff;
+}
+
+footer h3, footer h2 {
+  line-height: 6rem;
+}
+
+footer h2 {
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+
+footer p {
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+footer form input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+}
+
+footer form .form-group {
+  border: 1px solid #fff;
+  width: 40%;
+  margin: 2rem auto;
+  background: #fff;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer form .form-group button {
+  background: none;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  margin-left: 10px;
+}
+
+footer form .form-group button img {
+  width: 40px;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.scroll-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.scroll-down p {
+  font-size: 1.2rem;
+  line-height: 5.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.scroll-down span {
+  padding-left: 2rem;
+}
+
+.scroll-down img {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

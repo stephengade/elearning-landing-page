@@ -1,0 +1,129 @@
+//  mobile and Tablet
+@media only screen and (min-width: 0px) and (max-width: 479px),
+(min-width: 480px) and (max-width: 767px) {
+
+    header {
+
+        nav {
+            margin: 0 3rem;
+
+            .nav-menu,
+            button {
+                display: none;
+            }
+
+            .hamburger {
+                display: block !important;
+                align-self: center;
+                margin-top: .5rem;
+            }
+        }
+    }
+
+    .hero-section {
+
+        .row {
+            margin: 0 .7rem;
+            padding: none;
+        }
+
+        .hero-text {
+            margin-top: 2.5rem;
+
+            h2 {
+                font-size: 3.5rem;
+                line-height: 5rem;
+                letter-spacing: -2.5%;
+            }
+        }
+
+        .hero-image {
+            display: none;
+        }
+    }
+
+    .partners {
+        margin-top: 2rem;
+     .imgs {
+         width: 80%;
+         border: none;
+
+         img:first-child {
+             width: 60%;
+         }
+
+         img:nth-child(2), img:nth-child(3) {
+             width: 40%;
+         }
+ }
+    }
+
+
+.courses {
+    .row {
+margin: 0 .7rem;
+    }
+}
+
+.benefits 
+
+.row {
+ display: flex;
+ flex-direction: column-reverse;
+ margin: 1rem .7rem!important;
+
+ .benefit-image {
+     margin-bottom: 5rem;
+ }
+}
+
+.registration {
+   margin: 0 auto!important;
+  .form {
+      padding: 0!important;
+  }
+
+   form {
+       margin: 0 auto!important;
+       input, select, textarea {
+           width: 85vw!important;
+         
+       }
+
+       button {
+           display: flex;
+        
+       }
+   }
+}
+
+footer {
+    form {
+        .form-group {
+            width: 90%!important;
+        }
+
+        input {
+            width: 70%;
+        }
+    }
+}
+
+.scroll-down {
+    display: none!important;
+}
+}
+
+// laptop style
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   
+}
+
+// laptop and Desktop
+@media only screen and (min-width: 768px) and (max-width: 1023px),
+(min-width: 1024px) and (max-width: 1199px) {
+    .hamburger {
+        display: none !important;
+    }
+}

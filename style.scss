@@ -1,0 +1,45 @@
+html, body {
+    font-size: 64.5%;
+    overflow-x: hidden;
+}
+
+@import "./resets";
+@import "./variables";
+@import "./navheader";
+@import "./hero-section";
+@import "./responsiveness";
+@import "./hamburger";
+@import "./courses";
+@import "./form";
+@import "./footer";
+
+.container-fluid {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+    .scroll-down {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        right: 2%;
+        transform: rotate(90deg);
+        cursor: pointer;
+
+        p {
+            font-size: 1.2rem;
+            line-height: 5.4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+
+
+        span {
+            padding-left: 2rem;
+        }
+
+        img {
+            transform: rotate(270deg);
+            margin-left: 1rem;
+        }
+    }
